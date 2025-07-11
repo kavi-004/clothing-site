@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="navbar">
+        <h1 onclick="location.href='index.html'">Élan Boutique</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="deals.html">Deals</a>
+                <a href="myaccount.html">My Account</a>
+                <a href="Cart.html">🛒Cart</a>
+            </nav>
+    </div>
+    
+    <div class="container">
+        <h2>Pants</h2>
+
+        <div class="filter-search-bar">
+            <input type="text" id="searchInput" placeholder="Search dresses..." />
+    
+            <label>Price:</label>
+            <select id="priceFilter">
+            <option value="">All</option>
+            <option value="0-6000">Below Rs.6000</option>
+            <option value="6000-10000">Rs.6000 - Rs.10000</option>
+            <option value="10000-15000">Above Rs.10000</option>
+            </select>
+    
+            <label>Color:</label>
+            <select id="colorFilter">
+            <option value="">All</option>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+            <option value="ash">Ash</option>
+            </select>
+        </div>
+
+    
+
+        <div class="product-grid" id="pantsGrid">
+            <div class="product-card">
+                <img src="pant1.jpg" alt=" Black Flare Leg Pants">
+                <p>Solid Flare Leg Pants</p>
+                <h4>Rs.5600</h4>
+                <button onclick="location.href='pant1.html'">Buy Now</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="pant2.jpg" alt="White Pleated Wide Leg Trousers">
+                <p>Pleated Wide Leg Trousers</p>
+                <h4>Rs.4800</h4>
+                <button onclick="location.href='pant2.html'">Buy Now</button>
+            </div>
+    
+            <div class="product-card">
+                <img src="pant3.jpg" alt="Black Solid Colour Viscose Blend Jeans">
+                <p>Solid Colour Viscose Blend Jeans</p>
+                <h4>Rs.6500</h4>
+                <button onclick="location.href='pant3.html'">Buy Now</button>
+            </div>
+    
+            <div class="product-card">
+                <img src="pant4.jpg" alt="White High Waisted Flare Pants">
+                <p>High Waisted Flare Pants</p>
+                <h4>Rs.7500</h4>
+                <button onclick="location.href='pant4.html'">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    
+  <script src="product.js"></script>
+</body>
+</html>
+
+    

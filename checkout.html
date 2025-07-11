@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élan Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+</head> 
+<body>
+
+    <div class="navbar">
+        <h1 onclick="location.href='index.html'">Élan Boutique</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="deals.html">Deals</a>
+            <a href="myaccount.html">My Account</a>
+            <a href="Cart.html">🛒Cart</a>
+        </nav>
+    </div>
+
+    <div class="checkout-container">
+        <!-- Order Summary Section -->
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <p class="empty-cart-msg">No items were selected.</p>
+            <div class="summary-box" style="display: none;">
+                <div class="cart-items"></div> <!-- Cart items will be added dynamically -->
+                
+                <div class="summary-item">
+                    <span class="label">Sub total</span>
+                    <span class="value subtotal-value">Rs.0</span>
+                </div>
+                <div class="summary-item">
+                    <span class="label">Delivery fee</span>
+                    <span class="value delivery-value">Rs.0</span>
+                </div>
+                <hr>
+                <div class="summary-item">
+                    <span class="label total-label">Total</span>
+                    <span class="value total-value">Rs.0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Checkout Form Section (Initially Hidden) -->
+        <div class="checkout-form" style="display: none;">
+            <h3>Checkout Form</h3>
+            <div class="summary-box">
+                <form>
+                    <p>Personal Details</p>
+                    <input type="text" placeholder="Full Name" aria-label="name">
+                    <input type="email" placeholder="Email" aria-label="Email">
+                    <input type="text" placeholder="Phone Number" aria-label="phone number">
+                    <input type="text" placeholder="Address" aria-label="Address">
+
+                    <p>Payment Details</p>
+                    <input type="text" placeholder="Card Number" aria-label="card number">
+                    <input type="text" placeholder="CCV" aria-label="ccv">
+                    <input type="text" placeholder="Valid Thru" aria-label="date">
+
+                    <button type="submit" class="placeorder">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="checkout.js" defer></script>
+
+</body>
+</html>

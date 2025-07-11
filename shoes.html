@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="navbar">
+        <h1 onclick="location.href='index.html'">Élan Boutique</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="deals.html">Deals</a>
+                <a href="myaccount.html">My Account</a>
+                <a href="Cart.html">🛒Cart</a>
+            </nav>
+    </div>
+    
+    <div class="container">
+        <h2>Shoes</h2>
+
+         <div class="filter-search-bar">
+            <input type="text" id="searchInput" placeholder="Search dresses..." />
+    
+            <label>Price:</label>
+            <select id="priceFilter">
+            <option value="">All</option>
+            <option value="0-6000">Below Rs.6000</option>
+            <option value="6000-10000">Rs.6000 - Rs.10000</option>
+            <option value="10000-15000">Above Rs.10000</option>
+            </select>
+    
+            <label>Color:</label>
+            <select id="colorFilter">
+            <option value="">All</option>
+            <option value="beige">Beige</option>
+            <option value="black">Black</option>
+            </select>
+        </div>
+        
+        <div class="product-grid" id="shoesGrid">
+            <div class="product-card">
+                <img src="shoe1.jpg" alt="Beige Square Toe Shiny Chunky Heel">
+                <p>Square Toe Shiny Chunky Heel</p>
+                <h4>Rs.13600</h4>
+                <button onclick="location.href='shoe1.html'">Buy Now</button>
+            </div>
+    
+            <div class="product-card">
+                <img src="shoe2.jpg" alt="Black Faux Pearl Ankle Strap High Heel">
+                <p>Faux Pearl Ankle Strap High Heel</p>
+                <h4>Rs.15500</h4>
+                <button onclick="location.href='shoe2.html'">Buy Now</button>
+            </div>
+    
+            <div class="product-card">
+                <img src="shoe3.jpg" alt="Beige Chunky Heeled Sandals">
+                <p>Chunky Heeled Sandals</p>
+                <h4>Rs.5800</h4>
+                <button onclick="location.href='shoe3.html'">Buy Now</button>
+            </div>
+    
+            <div class="product-card">
+                <img src="shoe4.jpg" alt="Beige Cross Strapped Lace Up Heel">
+                <p>Cross Strapped Lace Up Heel</p>
+                <h4>Rs.7500</h4>
+                <button onclick="location.href='shoe4.html'">Buy Now</button>
+            </div>
+        </div>
+
+    </div>
+
+    
+  <script src="product.js"></script>
+</body>
+</html>
+
+    

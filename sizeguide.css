@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+    ;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #151414;
+    color: white;
+    padding: 15px 0;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar nav {
+    margin-top: 5px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+  /* Size Guide Styles */
+  .size-guide-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.size-guide-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.size-tables {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.size-table {
+    flex: 1;
+    min-width: 300px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.size-table h3 {
+    color: #444;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.measuring-guide {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.measuring-guide h3 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.measuring-guide ol {
+    padding-left: 20px;
+}
+
+.measuring-guide li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .size-tables {
+        flex-direction: column;
+    }
+    
+    .size-table {
+        min-width: 100%;
+    }
+}
+  

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élan Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <h1 onclick="location.href='index.html'">Élan Boutique</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="deals.html">Deals</a>
+            <a href="myaccount.html" class="active">My Account</a>
+            <a href="Cart.html">🛒Cart</a>
+        </nav>
+    </div>
+    <br>
+
+    <div class="account-container">
+        <div class="image-section">
+            <img src="account.jpg" alt="Image">
+        </div>
+        <div class="form-section">
+            <div class="login-box">
+                <h2>LOGIN</h2>
+                <form>
+                    <input type="email" id="loginEmail" placeholder="Email Address">
+                    <input type="text" id="loginPassword" placeholder="Password" type="password">
+                    
+                    <div class="remember-forgot">
+                        <p><label><input type="checkbox"> Remember me</label></p>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    
+                    <button type="submit" class="btn">LOGIN</button>
+                </form>
+            </div>
+
+            <div class="register-box">
+                <h2>REGISTER</h2>
+                <form>
+                    <input type="email" id="registerEmail" placeholder="Email Address">
+                    <p>A password will be sent to your email address.</p>
+                    
+                    <button type="submit" class="btn">REGISTER</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="checkout.js"></script>
+</body>
+</html>

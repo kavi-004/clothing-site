@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body data-product-id="0006">
+    <div class="navbar">
+        <h1>Élan Boutique</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="deals.html">Deals</a>
+            <a href="myaccount.html">My Account</a>
+            <a href="Cart.html">🛒Cart</a>
+        </nav>
+    </div>
+    <br>
+    <div class="product-container">
+        <div class="product-image">
+            <img src="pant2.jpg" alt="Pleated Wide Leg Trousers">
+        </div>
+        
+        <div class="product-details">
+            <h1 class="product-heading">Pleated Wide Leg Trousers</h1>
+            <p class="sku">Product No: 0006</p>
+            <p class="stock-status">✔ In stock</p>
+            
+            <p class="price">Rs 4,800</p>
+           
+            <div class="size-selection">
+                <p>SIZE:</p>
+                <button class="size-btn active">S</button>
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+                <button class="size-btn">XL</button>
+            </div>
+
+            <div class="color-selection">
+                <p>COLOR:</p>
+                <span class="color-box white"></span>
+                <span class="color-box green"></span>
+                <span class="color-box gray"></span>
+            </div>
+
+            <div class="quantity-selector">
+                <button class="qty-btn">-</button>
+                <span class="qty">1</span>
+                <button class="qty-btn">+</button>
+            </div>
+
+            <button class="add-to-cart" id="addToCart">ADD TO CART</button>
+            <button class="buy-now" id="buyNow">BUY NOW</button>
+            <button class="wishlist">♡</button>
+
+            <p class="delivery-info">
+                Order now to get <strong>5% off</strong> from your total bill
+            </p>
+
+            <div class="extra-links">
+                <a>Delivery & Return</a> | <a>Ask a Question</a>
+            </div>
+        </div>
+    </div>
+    
+   <!-- Reviews Section -->
+   <div class="reviews-section">
+    <div class="reviews-container">
+        <h2 class="customer-reviews-title">Customer Reviews</h2>
+        <div id="reviews" class="customer-reviews"></div>
+    </div>
+    
+    <div class="review-form-container">
+        <h2 class="write-review-title">Write a Review</h2>
+        <form id="reviewForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required>
+            <textarea id="comment" placeholder="Your Review" required></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+</div>
+    
+
+
+    <script src="product.js"></script>
+
+</body>
+</html>

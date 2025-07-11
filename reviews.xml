@@ -1,0 +1,124 @@
+<reviews>
+    <product id="0001">
+        <review>
+            <name>Emily Carter</name>
+            <rating>5</rating>
+            <comment>This dress is absolutely stunning! The fit is flawless and the fabric feels amazing.</comment>
+        </review>
+        <review>
+            <name>Olivia Bennett</name>
+            <rating>4</rating>
+            <comment>Great quality and true to size. Definitely worth the price.</comment>
+        </review>
+    </product>
+
+    <product id="0002"> 
+        <review>
+            <name>Sophia James</name>
+            <rating>5</rating>
+            <comment>Love the design! Got so many compliments when I wore it to a party.</comment>
+        </review>
+        <review>
+            <name>Isabella Morgan</name>
+            <rating>4</rating>
+            <comment>Nice dress, but delivery took a bit long.</comment>
+        </review>
+    </product>
+
+    <product id="0004">
+        <review>
+            <name>Jane Doe</name>
+            <rating>5</rating>
+            <comment>The stitching is perfect, and it looks exactly like the photos.</comment>
+        </review>
+    </product>
+
+    <product id="0005">
+        <review>
+            <name>Jane Doe</name>
+            <rating>5</rating>
+            <comment>Great quality! Love it.</comment>
+        </review>
+    </product>
+
+    <product id="0008">
+        <review>
+            <name>Amelia Scott</name>
+            <rating>5</rating>
+            <comment>Elegant and flowy. It’s my new favorite outfit!</comment>
+        </review>
+        <review>
+            <name>Charlotte Hayes</name>
+            <rating>4</rating>
+            <comment>Arrived earlier than expected. Beautiful color and very comfortable.</comment>
+        </review>
+    </product>
+
+    <product id="0010">
+        <review>
+            <name>Mia Turner</name>
+            <rating>5</rating>
+            <comment>Super chic and stylish. Wore it for an event and everyone loved it.</comment>
+        </review>
+    </product>
+
+    <product id="0011">
+        <review>
+            <name>Lily Anderson</name>
+            <rating>5</rating>
+            <comment>Lovely material and fits really well. Will be buying again!</comment>
+        </review>
+    </product>
+
+    <product id="0014">
+        <review>
+            <name>Grace Mitchell </name>
+            <rating>5</rating>
+            <comment>Not my usual style, but I’m glad I tried it. Pleasantly surprised</comment>
+        </review>
+    </product>
+
+    <product id="0015">
+        <review>
+            <name>Jane Doe</name>
+            <rating>5</rating>
+            <comment>A bit tighter than expected, but still looks great on me.</comment>
+        </review>
+        <review>
+            <name>Harper Lewis</name>
+            <rating>5</rating>
+            <comment>Love how soft and breathable the fabric is.</comment>
+        </review>
+    </product>
+
+    <product id="0018">
+        <review>
+            <name>Abigail Foster</name>
+            <rating>5</rating>
+            <comment>Perfect for summer! Lightweight and cute.</comment>
+        </review>
+    </product>
+
+    <product id="0019">
+        <review>
+            <name>Zoe Sanders</name>
+            <rating>4</rating>
+            <comment>Simple yet elegant. I’m obsessed.</comment>
+        </review>
+        <review>
+            <name>Nora Peterson</name>
+            <rating>5</rating>
+            <comment>Looks better in person than online. Very happy with my purchase!</comment>
+        </review>
+    </product>
+
+    <product id="0020">
+        <review>
+            <name>Luna Bell</name>
+            <rating>5</rating>
+            <comment>Gorgeous! I paired it with heels..A total win.</comment>
+        </review>
+    </product>
+
+
+</reviews>
